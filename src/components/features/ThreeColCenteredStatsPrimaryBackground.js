@@ -18,20 +18,20 @@ const StatValue = tw.div`text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-black
 
 export default ({
   subheading = "",
-  heading = "Over 9000 Projects Completed",
+  heading = "Over 100+ Workshops Attendees",
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   stats = [
     {
-      key: "Clients",
-      value: "2500+",
+      key: "Club Members",
+      value: "80+",
     },
     {
-      key: "Revenue",
-      value: "$100M+",
+      key: "Media Followers",
+      value: "100+",
     },
     {
-      key: "Employees",
-      value: "150+",
+      key: "Mentors",
+      value: "10+",
     },
   ]
 }) => {

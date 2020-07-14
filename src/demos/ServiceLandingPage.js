@@ -26,10 +26,10 @@ export default () => {
         heading={<>Amazing <HighlightedText>Features</HighlightedText></>}
       />
       <MainFeature
-        heading={<>Cloud built by and for <HighlightedText>Professionals</HighlightedText></>}
+        heading={<>Community built by and for <HighlightedText>Professionals</HighlightedText></>}
       />
       <Testimonial 
-        heading={<>Our Clients <HighlightedText>Love Us</HighlightedText></>}
+        heading={<>Our Students <HighlightedText>Love Us</HighlightedText></>}
       />
       <Pricing 
         heading={<>Flexible <HighlightedText>Plans</HighlightedText></>}

@@ -60,15 +60,15 @@ const PrimaryButton = styled(PrimaryButtonBase)(props => [
 ]);
 
 export default ({
-  subheading = "Our Expertise",
+  subheading = "Our Community",
   heading = (
     <>
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://timerse.com",
+  description = "Our Community focusses on enhancing the technical innovativeness of students by organizing the workshops and competitions on various technical level in order to attract the interest of the students towards technical aspects of their education.",
+  primaryButtonText = "Join Now!",
+  primaryButtonUrl = "https://t.me/joinchat/Lpx06xOHVwMjmeoWa3Iyjw",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,
@@ -91,13 +91,13 @@ export default ({
     {
       Icon: BriefcaseIcon,
       title: "Professionalism",
-      description: "We have the best professional marketing people across the globe just to work with you.",
+      description: "We have the best professional mentors across the college just to work with you.",
       iconContainerCss: tw`bg-teal-300 text-teal-800`
     },
     {
       Icon: MoneyIcon,
-      title: "Affordable",
-      description: "We promise to offer you the best rate we can - at par with the industry standard.",
+      title: "Open Source & Free",
+      description: "We promise to offer you all the workshops free of cost. You won't spend a single penny.",
       iconContainerCss: tw`bg-red-300 text-red-800`
     }
   ];

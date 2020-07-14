@@ -37,35 +37,35 @@ const CustomerCompany = tw.p`mt-1 text-sm text-gray-500`
 
 
 export default ({
-  heading = "Better, Faster and Cheaper Cloud.",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-  imageSrc = "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+  heading = "Learn {Code} And Build Better.",
+  description = "We provide great hands on workshops that will promote great practical experience and develep enthusiasm.",
+  imageSrc = "https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
   imageDecoratorBlob = true,
-  primaryButtonUrl = "https://google.com",
-  primaryButtonText = "Get Started",
+  primaryButtonUrl = "https://t.me/joinchat/Lpx06xOHVwMjmeoWa3Iyjw",
+  primaryButtonText = "Join on Telegram",
   buttonRounded = true,
-  features = ["Available in 7 Locations", "Premium Internet Backbone", "99.99% Uptime SLA"],
+  features = ["Support Available 24/7", "Premium Learning Material", "99.99% Hands-On"],
   testimonial = {
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    customerName: "Charlotte Hale",
-    customerCompany: "Delos Inc."
+    quote: "Believe in yourself and follow the combined route of hardwork and smartwork. You will surely succeed sooner or later.",
+    customerName: "Founder",
+    customerCompany: "YesTechie"
   }
 }) => {
   const buttonRoundedCss = buttonRounded && tw`rounded-full`;
   const navLinks = [
     <NavLinks key={1}>
       <NavLink href="/#">About</NavLink>
-      <NavLink href="/#">Blog</NavLink>
-      <NavLink href="/#">Pricing</NavLink>
+      <NavLink href="/#">Projects</NavLink>
+      <NavLink href="/#">Workshops</NavLink>
       <NavLink href="/#">Contact Us</NavLink>
       <NavLink href="/#">Testimonials</NavLink>
     </NavLinks>,
     <NavLinks key={2}>
       <NavLink href="/#" tw="lg:ml-12!">
-        Login
+        FAQ?
       </NavLink>
       <PrimaryLink css={buttonRoundedCss} href="/#">
-        Sign Up
+        Apply as Mentor
       </PrimaryLink>
     </NavLinks>
   ];
