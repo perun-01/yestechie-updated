@@ -74,29 +74,29 @@ export default ({
   imageBorder = false,
   imageShadow = false,
   subheading = "Testimonials",
-  heading = "Our Clients Love Us.",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.",
+  heading = "Our Students Love Us.",
+  description = "",
   textOnLeft = false,
   testimonials = [
     {
       stars: 5,
       profileImageSrc:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
-      heading: "Amazing User Experience",
+        "https://scontent-ort2-1.cdninstagram.com/v/t51.2885-19/95580233_534410040802277_7463650165325299712_n.jpg?_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_ohc=cJs80c3JIJIAX9IJKhm&oh=9ca0788f1e24fa4b601c8953979987c4&oe=5F4380B7",
+      heading: "Amazing Learning Experience",
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      customerName: "Charlotte Hale",
-      customerTitle: "CEO, Delos Inc."
+        "Great platform to learn and grow. They are actually providing knowledge that IT industry needs . Also the support is very good. They do respond for every doubt you raise(24/7).",
+      customerName: "Himanshu Bhola",
+      customerTitle: "CSE 3rd Year."
     },
     {
       stars: 5,
       profileImageSrc:
-        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
-      heading: "Love the Developer Experience and Design Principles !",
+        "https://instagram.fdel15-1.fna.fbcdn.net/v/t51.2885-15/e35/42003483_238459526850820_923794710106683777_n.jpg?_nc_ht=instagram.fdel15-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=_0z8AdVsGUoAX9rxdH7&oh=1d5b903c55f56c1d7deb17ec25e747da&oe=5F43BBDF",
+      heading: "Love the Instructor Experience and Principles !",
       quote:
-        "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-      customerName: "Adam Cuppy",
-      customerTitle: "Founder, EventsNYC"
+        "Studying in a tier 1 or tier 2 college doesn't matter, all a company looks for in a developer is his/her skills and the ability to grasp the same. And for that, YesTechie is the best way to achieve that. They have the best mentors for learning programming and development!",
+      customerName: "Abhay Agarwal",
+      customerTitle: "CSE 4th Year"
     }
   ]
 }) => {

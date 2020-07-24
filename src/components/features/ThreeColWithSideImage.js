@@ -70,11 +70,10 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
   const defaultCards = [
     {
       imageSrc: ShieldIconImage,
-      title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security."
+      title: "Premium Learning Material",
     },
     { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
+    { imageSrc: CustomizeIconImage, title: "99% Hands-On" },
     { imageSrc: ReliableIconImage, title: "Reliable" },
     { imageSrc: FastIconImage, title: "Fast" },
     { imageSrc: SimpleIconImage, title: "Easy" }
@@ -98,7 +97,7 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>
                 <p className="description">
-                  {card.description || "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."}
+                  {card.description || " "}
                 </p>
               </span>
             </Card>

@@ -18,8 +18,8 @@ const StatValue = tw.div`text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-black
 
 export default ({
   subheading = "",
-  heading = "Over 100+ Workshops Attendees",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  heading = "Over 100+ Workshop Attendees",
+  description = "We enhance the technical innovativeness of students by organizing the workshops and competitions on various technical level.",
   stats = [
     {
       key: "Club Members",
